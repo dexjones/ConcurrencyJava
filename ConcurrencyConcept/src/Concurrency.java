@@ -12,7 +12,7 @@ public class Concurrency {
 
         for (int i = 0; i <= 20; ++i) {
             try {
-                Thread.sleep(50);
+                Thread.sleep(100); // pause for effect
             } catch (InterruptedException e) { //
                 e.printStackTrace();
             }
@@ -47,7 +47,7 @@ public class Concurrency {
             System.out.println("Count down:");
             for (int i = 20; i >= 0; --i) {
                 try {
-                    Thread.sleep(50); // pause for effect
+                    Thread.sleep(100); // pause for effect
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
